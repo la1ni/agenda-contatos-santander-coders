@@ -3,9 +3,9 @@
   <span style="font-size: 20px; vertical-align: middle; margin-left: 10px;"><b>AGENDA DE CONTATOS</b></span>
 </div>
 
-<p style="text-align: center; font-size: 20px;">
+<div align="center">
 Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para finalizar o módulo de Lógica de Programação.
-</p>
+</div>
 
 <h1 align="center">
   <img alt="Santander Coders" src="https://ada-strapi-production.s3.sa-east-1.amazonaws.com/Thumb_Meta_20_f25502065b.png" width="500" height="300">
@@ -19,13 +19,34 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
 
 ## Integrantes
 
+
 <table align="center">
   <tr>
-    <td align="center"><img style="border-radius: 5%;" src="FotosIntegrantes/LauraFoto.jpeg" width="100px;" alt=""/><br /><sub><b>Ana Laura Marques Rodrigues</b></sub></td>
-    <td align="center"><img style="border-radius: 5%;" src="" width="100px;" alt=""/><br /><sub><b>Arthur Gabriel De Menezes Viana</b></sub></td>
-    <td align="center"><img style="border-radius: 5%;" src="" width="100px;" alt=""/><br /><sub><b>Lucas Kaique Rocha Nascimento</b></sub></td>
-    <td align="center"><img style="border-radius: 5%;" src="" width="100px;" alt=""/><br /><sub><b>Mariana Lainara Silva</b></sub></td>
-    <td align="center"><img style="border-radius: 5%;" src="" width="100px;" alt=""/><br /><sub><b>Tainá Souza Peixoto</b></sub></td>
+    <td align="center">
+      <img style="border-radius: 5%;" src="FotosIntegrantes/LauraFoto.jpeg" height="100px" width="100px;" alt=""/><br />
+      <sub><b>Ana Laura Marques Rodrigues</b></sub><br />
+      <a href="https://github.com/lauluah" target="_blank">GitHub</a>
+    </td>
+    <td align="center">
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Arthur.jpeg"  height="100px" width="100px;" alt=""/><br />
+      <sub><b>Arthur Gabriel De Menezes Viana</b></sub><br />
+      <a href="https://github.com/username-arthur" target="_blank">GitHub</a>
+    </td>
+    <td align="center">
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Lucas.jpeg" height="100px" width="100px;" alt=""/><br />
+      <sub><b>Lucas Kaique Rocha Nascimento</b></sub><br />
+      <a href="https://github.com/username-lucas" target="_blank">GitHub</a>
+    </td>
+    <td align="center">
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Mariana.jpeg"  height="100px" width="100px;" alt=""/><br />
+      <sub><b>Mariana Lainara Silva</b></sub><br />
+      <a href="https://github.com/la1ni" target="_blank">GitHub</a>
+    </td>
+    <td align="center">
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Tainá.jpeg"  height="100px" width="100px;" alt=""/><br />
+      <sub><b>Tainá Souza Peixoto</b></sub><br />
+      <a href="https://github.com/username-taina" target="_blank">GitHub</a>
+    </td>
   </tr>
 </table>
 
