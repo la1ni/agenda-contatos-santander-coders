@@ -1,6 +1,6 @@
-<div style="text-align: center;">
-  <img alt="Ada" style="border-radius: 50%; width: 50px; vertical-align: middle;" src="FotosIntegrantes/Ada.png">
-  <span style="font-size: 20px; vertical-align: middle;"><b>AGENDA DE CONTATOS</b></span>
+<div align="center">
+  <img alt="Ada" style="border-radius: 50%; width: 50px;" src="FotosIntegrantes/Ada.png">
+  <span style="font-size: 20px; vertical-align: middle; margin-left: 10px;"><b>AGENDA DE CONTATOS</b></span>
 </div>
 
 <p style="text-align: center; font-size: 20px;">
