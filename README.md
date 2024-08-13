@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-  <img alt="Ada" style="border-radius: 50%; width: 50px; vertical-align: middle;" src="https://media.licdn.com/dms/image/v2/C4D0BAQEJ9in0-PezNg/company-logo_200_200/company-logo_200_200/0/1659466659059/letscodebr_logo?e=2147483647&v=beta&t=ad75c7wpINPyAqY4-QeeZOsJbBo1Gx2ENSHMRfdUyx8">
+  <img alt="Ada" style="border-radius: 50%; width: 50px; vertical-align: middle;" src="FotosIntegrantes/Ada.png">
   <span style="font-size: 20px; vertical-align: middle;"><b>AGENDA DE CONTATOS</b></span>
 </div>
 
