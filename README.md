@@ -23,29 +23,29 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
 <table align="center">
   <tr>
     <td align="center">
-      <img style="border-radius: 5%;" src="FotosIntegrantes/LauraFoto.jpeg" height="100px" width="100px;" alt=""/><br />
+      <img style="border-radius: 5%;" src="FotosIntegrantes/LauraFoto.jpeg" height="90px" width="100px;" alt=""/><br />
       <sub><b>Ana Laura Marques Rodrigues</b></sub><br />
       <a href="https://github.com/lauluah" target="_blank">GitHub</a>
     </td>
     <td align="center">
-      <img style="border-radius: 5%;" src="FotosIntegrantes/Arthur.jpeg"  height="100px" width="100px;" alt=""/><br />
+      <img style="border-radius: 5%;" src="FotosIntegrantes/arthur.jpeg"  height="90px" width="100px;" alt=""/><br />
       <sub><b>Arthur Gabriel De Menezes Viana</b></sub><br />
-      <a href="https://github.com/username-arthur" target="_blank">GitHub</a>
+      <a href="https://github.com/arthurgmv" target="_blank">GitHub</a>
     </td>
     <td align="center">
-      <img style="border-radius: 5%;" src="FotosIntegrantes/Lucas.jpeg" height="100px" width="100px;" alt=""/><br />
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Lucas.jpeg" height="90px" width="100px;" alt=""/><br />
       <sub><b>Lucas Kaique Rocha Nascimento</b></sub><br />
-      <a href="https://github.com/username-lucas" target="_blank">GitHub</a>
+      <a href="https://github.com/LucasKaique131" target="_blank">GitHub</a>
     </td>
     <td align="center">
-      <img style="border-radius: 5%;" src="FotosIntegrantes/Mariana.jpeg"  height="100px" width="100px;" alt=""/><br />
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Mariana.jpeg"  height="90px" width="100px;" alt=""/><br />
       <sub><b>Mariana Lainara Silva</b></sub><br />
       <a href="https://github.com/la1ni" target="_blank">GitHub</a>
     </td>
     <td align="center">
-      <img style="border-radius: 5%;" src="FotosIntegrantes/Tainá.jpeg"  height="100px" width="100px;" alt=""/><br />
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Taina.jpeg"  height="90px" width="100px;" alt=""/><br />
       <sub><b>Tainá Souza Peixoto</b></sub><br />
-      <a href="https://github.com/username-taina" target="_blank">GitHub</a>
+      <a href="https://github.com/peixotots" target="_blank">GitHub</a>
     </td>
   </tr>
 </table>
