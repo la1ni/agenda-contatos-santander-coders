@@ -36,7 +36,7 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
       <a href="https://github.com/lauluah" target="_blank">GitHub</a>
     </td>
     <td align="center">
-      <img style="border-radius: 5%;" src="FotosIntegrantes/arthur.jpeg"  height="90px" width="100px;" alt=""/><br />
+      <img style="border-radius: 5%;" src="FotosIntegrantes/Arthur.jpeg"  height="90px" width="100px;" alt=""/><br />
       <sub><b>Arthur Gabriel De Menezes Viana</b></sub><br />
       <a href="https://github.com/arthurgmv" target="_blank">GitHub</a>
     </td>
