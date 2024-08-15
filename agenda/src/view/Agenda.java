@@ -3,7 +3,6 @@ package view;
 import controller.Controlador;
 import model.Contato;
 import util.Util;
-
 import java.util.Scanner;
 
 public class Agenda {
@@ -23,7 +22,16 @@ public class Agenda {
         } catch (Exception e){
             Util.erro(e.getMessage());
         }
+    }
 
+    public void detalharContato() throws Exception {
+        String telefone = Util.ler(scanner, "Digite o telefone do contato que deseja detalhar: ");
+        Contato contato = controlador.detalharContato(telefone);
+        if (contato != null) {
+            Util.escrever(contato.toString());
+        } else {
+            Util.erro("Contato não encontrado.");
+        }
     }
 
 }

@@ -2,7 +2,6 @@ package view;
 
 import controller.Controlador;
 import util.Util;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -20,29 +19,24 @@ public class Menu {
         int opcao;
 
         do {
-
             String lista="";
 
             String opcoes = STR."""
 
-                    ##################
-                    ##### AGENDA #####
-                    ##################
-
-                    >>>> Contatos <<<<
+                    ##############################
+                    ##### AGENDA DE CONTATOS #####
+                    ##############################
                     \{lista}
-
                     >>>> Menu <<<<
                     1 - Adicionar Contato
                     2 - Detalhar Contato
                     3 - Editar Contato
                     4 - Remover Contato
                     5 - Sair
-
                     """;
 
             Util.escrever(opcoes);
-            opcao =  Integer.parseInt(Util.ler(entrada, "Digite a opcao:"));
+            opcao =  Integer.parseInt(Util.ler(entrada, "Digite a opção desejada: "));
 
             switch (opcao){
                 case 1:
@@ -52,10 +46,14 @@ public class Menu {
                     } catch (Exception e){
 
                     }
-
                     break;
 
                 case 2:
+                    try {
+                        this.agenda.detalharContato();
+                    } catch (Exception e) {
+                        Util.erro(e.getMessage());
+                    }
                     break;
 
                 case 3:
@@ -65,15 +63,14 @@ public class Menu {
                     break;
 
                 case 5:
+                    Util.erro("Saindo do programa...");
                     break;
 
                 default:
-                    Util.erro("Opcao invalida");
+                    Util.erro("Opção inválida!");
                     break;
             }
-
-        } while(opcao <= 4);
+        } while(opcao != 5);
 
     }
-
 }
