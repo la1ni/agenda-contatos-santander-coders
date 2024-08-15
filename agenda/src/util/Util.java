@@ -1,5 +1,7 @@
 package util;
 
+import model.Contato;
+
 import java.util.Scanner;
 
 public class Util {
@@ -16,5 +18,7 @@ public class Util {
         System.out.println(questao);
         return entrada.nextLine();
     }
+
+
 
 }

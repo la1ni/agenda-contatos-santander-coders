@@ -1,20 +1,23 @@
 package view;
 
+import controller.Controlador;
 import util.Util;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Menu {
-
+    private final Controlador controlador = new Controlador();
+    private final Agenda agenda = new Agenda();
     private final Scanner entrada;
 
     public Menu() {
         this.entrada = new Scanner(System.in);
     }
 
-    public void iniciar() {
+    public void iniciar() throws Exception {
 
-        int opcao = 0;
+        int opcao;
 
         do {
 
@@ -43,6 +46,13 @@ public class Menu {
 
             switch (opcao){
                 case 1:
+                    try {
+                        this.agenda.criarContato();
+                        System.out.println(Arrays.toString(controlador.getContatos()));
+                    } catch (Exception e){
+
+                    }
+
                     break;
 
                 case 2:
@@ -52,6 +62,9 @@ public class Menu {
                     break;
 
                 case 4:
+                    break;
+
+                case 5:
                     break;
 
                 default:
