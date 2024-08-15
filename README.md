@@ -12,13 +12,21 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
 </h1>
 
 ## Sobre o projeto
-+
++ Crie uma agenda de contatos, onde pode ser registrados vários contatos e seus dados. A aplicação terá o
+  seguinte formato:
+  
+# AGENDA 
+
+<img alt="" src="FotosIntegrantes/Agenda.png">
+
+<p>Requisitos funcionais</p>
+<p>RN1: Não é permitido armazenar contatos com telefones ja cadastrados;</p>
+<p> RN2: Para realizar as ações (detalhar, editar e remover), será necessário informar o telefone do contato; </p>
 
 # Linguagem
 + JAVA
 
 ## Integrantes
-
 
 <table align="center">
   <tr>
@@ -53,5 +61,7 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
 ## Principais desafios encontrados no projeto:
 
 ## Parte mais interessante:
+
+## O que pode ser melhorado:
 
 
