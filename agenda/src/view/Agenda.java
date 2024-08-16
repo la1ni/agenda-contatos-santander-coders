@@ -33,4 +33,27 @@ public class Agenda {
             Util.erro("Contato não encontrado.");
         }
     }
+
+    public void editarContato() throws Exception {
+        try {
+            String telefone = Util.ler(scanner, "Digite o telefone do contato: ");
+            Contato contato = controlador.detalharContato(telefone);
+
+            String nome = Util.ler(scanner, "Digite o nome do contato: ");
+            contato.setNome(nome);
+
+            String sobrenome = Util.ler(scanner, "Digite o sobrenome do contato: ");
+            contato.setsobrenome(sobrenome);
+
+            String telefoneEditado = Util.ler(scanner, "Digite o telefone do contato: ");
+            contato.setTelefone(telefoneEditado);
+
+            String email = Util.ler(scanner, "Digite o email do contato: ");
+            contato.setEmail(email);
+
+            System.out.println("<< Contato editado >>");
+        } catch (Exception e) {
+            Util.erro(e.getMessage());
+        }
+    }
 }
