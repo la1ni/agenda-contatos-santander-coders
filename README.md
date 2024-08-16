@@ -68,5 +68,3 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
 - **Desenvolvimento Colaborativo**: Melhoramos nossa habilidade de trabalhar em equipe, dividindo tarefas e trocando conhecimento.
 
 ## O que pode ser melhorado:
-
-
