@@ -1,6 +1,6 @@
 <div align="center">
   <img alt="Ada" style="border-radius: 50%; width: 50px;" src="FotosIntegrantes/Ada.png">
-  <span style="font-size: 20px; vertical-align: middle; margin-left: 10px;"><b>AGENDA DE CONTATOS</b></span>
+  <h1 style="font-size: 20px;"><b>AGENDA DE CONTATOS</b></h1>
 </div>
 
 <div align="center">
@@ -11,9 +11,8 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
   <img alt="Santander Coders" src="https://ada-strapi-production.s3.sa-east-1.amazonaws.com/Thumb_Meta_20_f25502065b.png" width="500" height="300">
 </h1>
 
-## Sobre o projeto
-+ Crie uma agenda de contatos, onde pode ser registrados vários contatos e seus dados. A aplicação terá o
-  seguinte formato:
+## Objetivo do Projeto:
++ Desenvolver um sistema de agenda de contatos que permita ao usuário adicionar, remover, buscar e listar contatos.
   
 # AGENDA 
 
@@ -59,8 +58,14 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
 </table>
 
 ## Principais desafios encontrados no projeto:
+- **Limitação do Uso de Recursos**: Por se tratar de um projeto focado em conceitos iniciais de lógica de programação, tivemos que limitar o uso de recursos mais avançados.
+- **Divisão de Tarefas**: Tivemos que dividir as tarefas de forma que cada integrante pudesse contribuir com o projeto.
+- **Integração de Códigos**: Tivemos que integrar os códigos de cada integrante para que o projeto funcionasse corretamente.
 
-## Parte mais interessante:
+## Parte Mais Interessante
+- **Aprendizado**: Tivemos a oportunidade de aprender mais sobre a linguagem Java, Git e GitHub e a IDE IntelliJ IDEA.
+- **Desenvolvimento de um Projeto Completo**: Conseguimos desenvolver um projeto completo, com várias opções de interação com o usuário.
+- **Desenvolvimento Colaborativo**: Melhoramos nossa habilidade de trabalhar em equipe, dividindo tarefas e trocando conhecimento.
 
 ## O que pode ser melhorado:
 
