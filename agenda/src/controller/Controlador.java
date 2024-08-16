@@ -58,7 +58,7 @@ public class Controlador {
         this.contatos = contatos;
     }
 
-    private int indiceDeContatosPorTelefone(String telefone) throws ContatoNaoEncontradoException, NaoExistemContatosException {
+    public int indiceDeContatosPorTelefone(String telefone) throws ContatoNaoEncontradoException, NaoExistemContatosException {
         int indice = -1;
         try {
             int tamanho = this.checarTamanho();

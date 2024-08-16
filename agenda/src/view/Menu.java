@@ -1,7 +1,9 @@
 package view;
 
 import controller.Controlador;
+import model.Contato;
 import util.Util;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -16,35 +18,45 @@ public class Menu {
 
     public void iniciar() throws Exception {
 
-        int opcao;
+        int opcao = 0;
 
         do {
-            String lista="";
+            StringBuilder lista = new StringBuilder("");
+
+            if (controlador.getContatos() != null) {
+                lista.append("""
+                 >>>> Registros <<<<
+                Id | Nome                  | Telefone  | Email
+                """);
+                for (Contato contato : controlador.getContatos()) {
+                    String linha = String.format("%d  | %s       | %s | %s\n", controlador.indiceDeContatosPorTelefone(contato.getTelefone()) + 1, STR."\{contato.getNome()} \{contato.getsobrenome()}", contato.getTelefone(), contato.getEmail());
+                    lista.append(linha);
+                }
+            }
 
             String opcoes = STR."""
 
-                    ##############################
-                    ##### AGENDA DE CONTATOS #####
-                    ##############################
-                    \{lista}
-                    >>>> Menu <<<<
-                    1 - Adicionar Contato
-                    2 - Detalhar Contato
-                    3 - Editar Contato
-                    4 - Remover Contato
-                    5 - Sair
-                    """;
+                ##############################
+                ##### AGENDA DE CONTATOS #####
+                ##############################
+                \{lista.toString()}
+                >>>> Menu <<<<
+                1 - Adicionar Contato
+                2 - Detalhar Contato
+                3 - Editar Contato
+                4 - Remover Contato
+                5 - Sair
+                """;
 
             Util.escrever(opcoes);
-            opcao =  Integer.parseInt(Util.ler(entrada, "Digite a opção desejada: "));
+            opcao = Integer.parseInt(Util.ler(entrada, "Digite a opção desejada: "));
 
-            switch (opcao){
+            switch (opcao) {
                 case 1:
                     try {
                         this.agenda.criarContato();
-                        System.out.println(Arrays.toString(controlador.getContatos()));
-                    } catch (Exception e){
-
+                    } catch (Exception e) {
+                        Util.erro(e.getMessage());
                     }
                     break;
 
@@ -70,7 +82,8 @@ public class Menu {
                     Util.erro("Opção inválida!");
                     break;
             }
-        } while(opcao != 5);
 
+        }
+        while (opcao != 5);
     }
 }
