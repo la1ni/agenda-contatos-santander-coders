@@ -5,10 +5,7 @@ import exception.NaoExistemContatosException;
 import exception.TelefoneJaExistenteException;
 import model.Contato;
 
-
 public class Controlador {
-
-
 
     private static Contato[] contatos;
 
@@ -28,7 +25,6 @@ public class Controlador {
         } catch (Exception e){
             throw e;
         }
-
     }
 
     private Contato[] copiarContatos(Contato [] contatos, Contato[] novosContatos){
@@ -80,4 +76,14 @@ public class Controlador {
             throw e;
         }
     }
+
+    public Contato detalharContato(String telefone) {
+        try {
+            int indice = indiceDeContatosPorTelefone(telefone);
+            return contatos[indice];
+        } catch (Exception e){
+            return null;
+        }
+    }
+
 }
