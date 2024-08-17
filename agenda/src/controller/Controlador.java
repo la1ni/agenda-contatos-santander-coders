@@ -36,7 +36,7 @@ public class Controlador {
 
     public Contato[] getContatos() {return contatos;}
 
-    private void consultarNumeroExistente(String telefone) throws Exception {
+    public void consultarNumeroExistente(String telefone) throws Exception {
         try {
             for (Contato contato : contatos) {
                 if (contato.getTelefone().equals(telefone)) {
