@@ -77,6 +77,11 @@ public class Menu {
                     break;
 
                 case 4:
+                    try {
+                        this.agenda.removerContato();
+                    } catch (Exception e) {
+                        Util.erro(e.getMessage());
+                    }
                     break;
 
                 case 5:
