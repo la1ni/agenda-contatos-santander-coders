@@ -56,4 +56,14 @@ public class Agenda {
             Util.erro(e.getMessage());
         }
     }
+
+    public void removerContato() throws Exception {
+        try {
+            String telefone = Util.ler(scanner, "Digite o telefone do contato: ");
+            controlador.removerContato(telefone);
+            Util.escrever("Contato removido com sucesso.");
+        } catch (Exception e) {
+            Util.erro("Erro ao remvoer o contato: " + e.getMessage());
+        }
+    }
 }

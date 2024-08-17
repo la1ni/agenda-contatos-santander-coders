@@ -85,4 +85,27 @@ public class Controlador {
             throw e;
         }
     }
+
+    public Contato[] removerContato(String telefone) throws Exception {
+        try {
+            int tamanhoAgenda = checarTamanho();
+            int indice = indiceDeContatosPorTelefone(telefone);
+
+            Contato[] contatosAtualizados = new Contato[tamanhoAgenda - 1];
+
+            for (int i = 0, j = 0; i < contatos.length; i++) {
+                if (i != indice) {
+                    contatosAtualizados[j++] = contatos[i];
+                }
+            }
+
+            contatos = contatosAtualizados.length > 0 ? contatosAtualizados : null;
+            return contatos;
+        } catch (NaoExistemContatosException | ContatoNaoEncontradoException e) {
+            throw e;
+        } catch (Exception e) {
+            throw new Exception("Erro ao remover o contato: " + e.getMessage());
+        }
+    }
 }
+
