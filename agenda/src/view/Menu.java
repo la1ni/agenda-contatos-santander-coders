@@ -4,7 +4,6 @@ import controller.Controlador;
 import model.Contato;
 import util.Util;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Menu {
