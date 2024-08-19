@@ -54,9 +54,7 @@ public class Controlador {
         }
         return contatos.length;}
 
-    public Controlador() {
-        this.contatos = contatos;
-    }
+
 
     public int indiceDeContatosPorTelefone(String telefone) throws ContatoNaoEncontradoException, NaoExistemContatosException {
         int indice = -1;
@@ -106,6 +104,9 @@ public class Controlador {
         } catch (Exception e) {
             throw new Exception("Erro ao remover o contato: " + e.getMessage());
         }
+    }
+
+    public Controlador() {
     }
 }
 

@@ -1,6 +1,7 @@
 package view;
 
 import controller.Controlador;
+import exception.ContatoNaoEncontradoException;
 import model.Contato;
 import util.Util;
 import exception.TelefoneJaExistenteException;
@@ -41,8 +42,7 @@ public class Agenda {
             Contato contato = controlador.detalharContato(telefone);
 
             if (contato == null) {
-                Util.erro("Contato não encontrado.");
-                return;
+                throw new ContatoNaoEncontradoException();
             }
 
             String nome = Util.ler(scanner, "Digite o nome do contato: ");
@@ -53,12 +53,15 @@ public class Agenda {
 
             String telefoneEditado = Util.ler(scanner, "Digite o telefone do contato: ");
 
-            try {
-                controlador.consultarNumeroExistente(telefoneEditado);
-                contato.setTelefone(telefoneEditado);
-            } catch (TelefoneJaExistenteException e) {
-                Util.erro("Número de telefone já está em uso. Escolha outra opção.");
-                return;
+            if (telefone.equals(telefoneEditado)) {contato.setTelefone(telefoneEditado);}
+            else {
+                try {
+                    controlador.consultarNumeroExistente(telefoneEditado);
+                    contato.setTelefone(telefoneEditado);
+                } catch (TelefoneJaExistenteException e) {
+                    Util.erro("Número de telefone já está em uso. Escolha outra opção.");
+                    return;
+                }
             }
 
             String email = Util.ler(scanner, "Digite o email do contato: ");
