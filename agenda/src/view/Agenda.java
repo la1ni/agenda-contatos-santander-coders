@@ -57,7 +57,7 @@ public class Agenda {
                 controlador.consultarNumeroExistente(telefoneEditado);
                 contato.setTelefone(telefoneEditado);
             } catch (TelefoneJaExistenteException e) {
-                Util.erro("Número de telefone já está em uso. Escolha outro número.");
+                Util.erro("Número de telefone já está em uso. Escolha outra opção.");
                 return;
             }
 
