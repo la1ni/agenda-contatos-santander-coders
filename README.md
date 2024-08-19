@@ -57,7 +57,7 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
   </tr>
 </table>
 
-## Principais desafios encontrados no projeto:
+## Principais Desafios Encontrados no Projeto
 - **Limitação do Uso de Recursos**: Por se tratar de um projeto focado em conceitos iniciais de lógica de programação, tivemos que limitar o uso de recursos mais avançados.
 - **Divisão de Tarefas**: Tivemos que dividir as tarefas de forma que cada integrante pudesse contribuir com o projeto.
 - **Integração de Códigos**: Tivemos que integrar os códigos de cada integrante para que o projeto funcionasse corretamente.
@@ -67,4 +67,7 @@ Projeto desenvolvido pelo grupo 5 da turma 1173 | Santander Coders 2024 para fin
 - **Desenvolvimento de um Projeto Completo**: Conseguimos desenvolver um projeto completo, com várias opções de interação com o usuário.
 - **Desenvolvimento Colaborativo**: Melhoramos nossa habilidade de trabalhar em equipe, dividindo tarefas e trocando conhecimento.
 
-## O que pode ser melhorado:
+## O Que Pode Ser Melhorado
+- **Validação de Dados**: Implementar validações mais robustas para os campos de entrada, como verificar se o email é válido e se o telefone contém apenas números.
+- **Tratamento de Exceções**: Implementar um tratamento de exceções mais abrangente para lidar com possíveis erros durante a execução do programa, como entradas inválidas do usuário.
+- **Interface Gráfica**: Adicionar uma interface gráfica para tornar o uso do sistema mais amigável.
