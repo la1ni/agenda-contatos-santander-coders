@@ -1,0 +1,16 @@
+# Arquivos de configuração do IntelliJ IDEA
+.idea/
+*.iml
+/out/
+
+# Ignore diretórios de build
+/build/
+/target/
+
+# Logs
+*.log
+
+# Arquivos de ambiente específico
+*.env
+*.local
+
