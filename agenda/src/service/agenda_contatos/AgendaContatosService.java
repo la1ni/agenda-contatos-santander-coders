@@ -1,11 +1,11 @@
-package controller;
+package service.agenda_contatos;
 
 import exception.ContatoNaoEncontradoException;
 import exception.NaoExistemContatosException;
 import exception.TelefoneJaExistenteException;
 import model.Contato;
 
-public class Controlador {
+public class AgendaContatosService {
 
     private static Contato[] contatos;
 
@@ -106,7 +106,7 @@ public class Controlador {
         }
     }
 
-    public Controlador() {
+    public AgendaContatosService() {
     }
 }
 

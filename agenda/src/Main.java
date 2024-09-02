@@ -1,8 +1,10 @@
-import view.Menu;
+import controller.MenuPrincipal;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        Menu menu = new Menu();
-        menu.iniciar();
+
+        MenuPrincipal menuPrincipal = new MenuPrincipal();
+        menuPrincipal.selecionaOpcao();
+
     }
 }

@@ -36,7 +36,7 @@ public class Contato {
         this.nome = nome;
     }
 
-    public String getsobrenome() {
+    public String getSobrenome() {
         return sobrenome;
     }
 
